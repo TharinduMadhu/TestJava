@@ -11,7 +11,6 @@ public class AppInitializer extends Application {
         launch(args);
     }
 
-
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(this.getClass().getResource("view/Mainform.fxml"));
